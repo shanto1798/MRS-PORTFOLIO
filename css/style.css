@@ -35,3 +35,9 @@ section{
 .half-width img{
     width: 80%;
 }
+#drem_area{
+    padding-top: 100px;
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
