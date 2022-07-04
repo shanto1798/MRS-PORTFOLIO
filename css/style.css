@@ -25,7 +25,7 @@ h1{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-section{
+.flexible_container{
     display: flex;
 }
 .half-width{
@@ -40,4 +40,45 @@ section{
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+#experience{
+    padding-top: 100px;
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#experience h1{
+    margin-left: 80px;
+}
+.experience_item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px 10px;
+    border-left: 7px solid salmon;
+}
+#border-color{
+    border-left: 7px solid blue;
+}
+.expi_text h1{
+    font-size: 30px;
+    text-align: center;
+}
+.expi_text h3{
+    font-size: 20px;
+    text-align: center;
+    color: tomato;
+}
+.expi_text P{
+    font-size: 15px;
+    width: 470px;
+    text-align: center;
+    margin: 0 auto;
+}
+footer p{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 100px;
 }
